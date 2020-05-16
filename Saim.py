@@ -16,12 +16,12 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 
-def keluar():
+def exit():
 	print "\033[1;96m[!] \x1b[1;91mExit"
 	os.sys.exit()
 
 
-def acak(b):
+def random (b):
     w = 'ahtdzjc'
     d = ''
     for i in x:
@@ -29,7 +29,7 @@ def acak(b):
     return cetak(d)
 
 
-def cetak(b):
+def print out (b):
     w = 'ahtdzjc'
     for i in w:
         j = w.index(i)
@@ -39,7 +39,7 @@ def cetak(b):
     sys.stdout.write(x+'\n')
 
 
-def jalan(z):
+def street(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
@@ -65,11 +65,11 @@ logo = """ -----------------------------•◈•
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93msigning in \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
-berhasil = []
+it works = []
 cekpoint = []
 oks = []
 id = []
@@ -149,12 +149,12 @@ def login():
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
-				keluar()
+				()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
-			keluar()
+			()
 		else:
 			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
